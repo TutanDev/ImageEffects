@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TutanDev_Silhouette
-  m_Shader: {fileID: 4800000, guid: f2d994990127c3e42a82a84b75fb84ba, type: 3}
+  m_Name: TutanDev_Bloom
+  m_Shader: {fileID: 4800000, guid: e92fa45e82d0b074da8617045819cc30, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -23,8 +23,9 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _FarColour: {r: 1, g: 1, b: 1, a: 1}
-    - _NearColour: {r: 0.1385592, g: 0.7490196, b: 0, a: 1}
+    m_Floats:
+    - _KernelSize: 21
+    - _Spread: 5
+    - _Threshold: 0.5
+    m_Colors: []
   m_BuildTextureStacks: []
