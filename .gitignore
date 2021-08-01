@@ -10,13 +10,17 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 /[Aa]ssets/[Gg]reenForest/
-*GreenForest*
+*GreenForest.meta
 /[Aa]ssets/_TerrainAutoUpgrade/
-*_TerrainAutoUpgrade*
+*_TerrainAutoUpgrade.meta
 
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+#Ignore all .meta file
+*.meta
+#But not source file with postfix. which is everything but a folder
+!*.*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
