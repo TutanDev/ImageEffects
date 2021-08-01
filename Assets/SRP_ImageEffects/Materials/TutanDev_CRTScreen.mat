@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TutanDev_Silhouette
-  m_Shader: {fileID: 4800000, guid: f2d994990127c3e42a82a84b75fb84ba, type: 3}
+  m_Name: TutanDev_CRTScreen
+  m_Shader: {fileID: 4800000, guid: 2da8e3d6f953027498c99b89b141408f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -23,8 +23,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _FarColour: {r: 1, g: 1, b: 1, a: 1}
-    - _NearColour: {r: 0.33574215, g: 0.9622642, b: 0.19517623, a: 1}
+    m_Floats:
+    - _Brightness: 27
+    - _Contrast: 2.2
+    m_Colors: []
   m_BuildTextureStacks: []

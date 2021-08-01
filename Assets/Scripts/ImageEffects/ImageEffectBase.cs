@@ -1,5 +1,7 @@
 using UnityEngine;
 
+[ImageEffectAllowedInSceneView]
+[ExecuteInEditMode]
 [RequireComponent(typeof(Camera))]
 public class ImageEffectBase : MonoBehaviour
 {
