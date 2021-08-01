@@ -9,6 +9,11 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Aa]ssets/[Gg]reenForest/
+*GreenForest*
+/[Aa]ssets/_TerrainAutoUpgrade/
+*_TerrainAutoUpgrade*
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
